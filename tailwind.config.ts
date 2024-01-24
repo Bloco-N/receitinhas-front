@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'food-pattern': "url('/pattern.png')"
+        'food-pattern': "url('/pattern.svg')"
       },
     },
   },
