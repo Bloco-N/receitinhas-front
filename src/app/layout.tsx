@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Modak } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const modak = Modak({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Receitinhas",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className + ' bg-food-pattern bg-repeat'}>{children}</body>
+      <body className={modak.className + ' bg-food-pattern bg-repeat'}>{children}</body>
     </html>
   );
 }

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: violet;
+}
+
+@layer base {
+    .font-stroke {
+        -webkit-text-stroke: 3px black;
+    }
+}

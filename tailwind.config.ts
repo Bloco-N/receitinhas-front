@@ -12,6 +12,9 @@ const config: Config = {
         'food-pattern': "url('/pattern.svg')"
       },
     },
+    colors: {
+      'cotton-candy': '#FF97B8'
+    }
   },
   plugins: [],
 };
