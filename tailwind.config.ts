@@ -11,6 +11,9 @@ const config: Config = {
       backgroundImage: {
         'food-pattern': "url('/pattern.svg')"
       },
+      backgroundSize: {
+        '100%': "100% 100%"
+      },
     },
     colors: {
       'cotton-candy': '#FF97B8'
