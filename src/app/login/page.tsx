@@ -16,7 +16,7 @@ export default function Home() {
       <div className="absolute flex flex-col mt-44">
         <Input type="email" placeholder="e-mail"/>
         <Input type="password" placeholder="senha"/>
-        <p className="mx-auto font-ubuntu text-chocolate text-base">Esqueci minha senha</p>
+        <p className="mx-auto font-ubuntu text-chocolate text-base"><Link className="no-underline" href="/recuperar-senha">Esqueci minha senha</Link></p>
         <Button text="ENTRAR" width="w-36" bgColor=" bg-mint"/>
         <p className="mx-auto font-ubuntu text-chocolate text-base">Ainda não tem uma conta? <Link className="no-underline" href="/cadastro">Cadastre-se aqui</Link></p>
       </div>
