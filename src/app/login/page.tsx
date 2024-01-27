@@ -13,11 +13,11 @@ export default function Home() {
       <Card />
 
       <div className="absolute flex flex-col mt-44">
-        <Input type="email" placeholder="email"/>
-        <Input type="password" placeholder="password"/>
-        <p className="mx-auto">Esqueci minha senha</p>
+        <Input type="email" placeholder="e-mail"/>
+        <Input type="password" placeholder="senha"/>
+        <p className="mx-auto font-ubuntu text-chocolate text-base">Esqueci minha senha</p>
         <Button />
-        <p className="mx-auto">Ainda não tem conta? Cadastre-se aqui</p>
+        <p className="mx-auto font-ubuntu text-chocolate text-base">Ainda não tem uma conta? Cadastre-se aqui</p>
       </div>
 
     </div>  
