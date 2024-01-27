@@ -16,8 +16,11 @@ const config: Config = {
       },
     },
     colors: {
-      'cotton-candy': '#FF97B8'
-    }
+      'cotton-candy': '#FF97B8',
+      'mint': '#AAF0D1',
+      'vanilla': '#E2E8F0',
+      'coffee': '#000000'
+    },
   },
   plugins: [],
 };
