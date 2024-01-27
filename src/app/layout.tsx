@@ -1,8 +1,20 @@
 import type { Metadata } from "next";
-import { Modak } from "next/font/google";
+import { Modak, Ubuntu } from "next/font/google";
 import "./globals.css";
 
-const modak = Modak({ subsets: ["latin"], weight: "400" });
+const modak = Modak({
+  subsets: ['latin'],
+  weight: "400",
+  variable: '--font-modak',
+  display: 'swap',
+});
+
+const ubuntu = Ubuntu({
+  subsets: ['latin'],
+  weight: "300",
+  variable: '--font-ubuntu',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: "Receitinhas",
@@ -16,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={modak.className + ' bg-food-pattern bg-repeat'}>{children}</body>
+      <body className={`${modak.variable} ${ubuntu.variable}` + ' bg-food-pattern bg-repeat'}>{children}</body>
     </html>
   );
 }

@@ -14,12 +14,17 @@ const config: Config = {
       backgroundSize: {
         '100%': "100% 100%"
       },
+      fontFamily: {
+        modak: ['var(--font-modak)'],
+        ubuntu: ['var(--font-ubuntu)']
+      },
     },
     colors: {
       'cotton-candy': '#FF97B8',
       'mint': '#AAF0D1',
       'vanilla': '#E2E8F0',
-      'coffee': '#000000'
+      'coffee': '#000000',
+      'chocolate': '#7d5635'
     },
   },
   plugins: [],

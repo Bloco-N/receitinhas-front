@@ -8,6 +8,6 @@ export default function Input({ type, placeholder }: InputProps) {
   return (
     <input type={type}
            placeholder={placeholder}
-           className="box-content w-72 h-10 rounded-full border-[3px] text-lg border-cotton-candy focus:outline-none mb-6"/>
+           className="box-content w-72 h-10 rounded-full border-[3px] font-ubuntu text-lg border-cotton-candy focus:outline-none mb-6 pl-4"/>
   )
 }
