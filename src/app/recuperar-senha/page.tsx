@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center h-svh items-center relative">
 
-      <Card dimensions="w-[30rem] h-[24rem]"/>
+      <Card className="w-[28rem] h-[20rem]"/>
 
       <div className="absolute flex flex-col">
 
@@ -14,7 +14,7 @@ export default function Home() {
 
         <Input type="email" placeholder="e-mail"/>
 
-        <Button text="REDEFINIR SENHA" width="w-64" bgColor=" bg-mint"/>
+        <Button width="w-64" bgColor=" bg-mint">REDEFINIR SENHA</Button>
 
       </div>
 

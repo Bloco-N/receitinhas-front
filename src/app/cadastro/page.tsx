@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center h-svh items-center relative">
 
-      <Card dimensions="w-[28rem] h-[32rem]"/>
+      <Card className="w-[26rem] h-[30rem]"/>
 
       <div className="absolute flex flex-col">
 
@@ -15,7 +15,7 @@ export default function Home() {
         <Input type="password" placeholder="senha"/>
         <Input type="password" placeholder="confirmar senha"/>
 
-        <Button text="CADASTRAR" width="w-48" bgColor=" bg-mint"/>
+        <Button width="w-48" bgColor=" bg-mint">CADASTRAR</Button>
 
       </div>
 

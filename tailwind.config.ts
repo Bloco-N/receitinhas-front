@@ -24,7 +24,8 @@ const config: Config = {
       'mint': '#AAF0D1',
       'vanilla': '#E2E8F0',
       'coffee': '#000000',
-      'chocolate': '#7d5635'
+      'chocolate': '#7d5635',
+      'chantilly': '#faf8f2'
     },
   },
   plugins: [],
