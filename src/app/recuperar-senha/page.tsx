@@ -2,11 +2,11 @@ import Card from "@/components/Card";
 import Input from "@/components/Input";
 import Button from "@/components/Button";
 
-export default function Home() {
+export default function RecuperarSenha() {
   return (
-    <div className="flex flex-col justify-center h-svh items-center relative">
+    <div className="flex flex-col justify-center h-screen items-center relative">
 
-      <Card className="w-[28rem] h-[20rem]"/>
+      <Card className="w-11/12 h-1/2 sm:w-[28rem] sm:h-[20rem]"/>
 
       <div className="absolute flex flex-col">
 
@@ -14,7 +14,7 @@ export default function Home() {
 
         <Input type="email" placeholder="e-mail"/>
 
-        <Button width="w-64" bgColor=" bg-mint">REDEFINIR SENHA</Button>
+        <Button width="w-72" bgColor=" bg-mint">REDEFINIR SENHA</Button>
 
       </div>
 

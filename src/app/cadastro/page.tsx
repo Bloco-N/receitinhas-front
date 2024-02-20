@@ -2,11 +2,11 @@ import Card from "@/components/Card";
 import Input from "@/components/Input";
 import Button from "@/components/Button";
 
-export default function Home() {
+export default function Cadastro() {
   return (
-    <div className="flex flex-col justify-center h-svh items-center relative">
+    <div className="flex flex-col justify-center h-screen items-center relative">
 
-      <Card className="w-[26rem] h-[30rem]"/>
+      <Card className="w-11/12 h-3/5 sm:w-[26rem] sm:h-[30rem]"/>
 
       <div className="absolute flex flex-col">
 
