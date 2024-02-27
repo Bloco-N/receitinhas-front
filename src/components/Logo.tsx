@@ -2,10 +2,10 @@ import Image from "next/image"
 
 export default function Logo() {
   return (
-        <Image className="absolute mx-auto -mt-[35rem] -ml-4"
+        <Image className="mx-auto"
                src="/logo-login.svg" 
-               width={200}
-               height={200}
+               width={175}
+               height={175}
                alt="Logo" />
   )
 }
