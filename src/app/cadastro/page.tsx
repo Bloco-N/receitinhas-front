@@ -4,11 +4,9 @@ import Button from "@/components/Button";
 
 export default function Cadastro() {
   return (
-    <div className="flex flex-col justify-center h-screen items-center relative">
+    <div className="flex flex-col justify-center h-screen items-center">
 
-      <Card className="w-11/12 h-3/5 sm:w-[26rem] sm:h-[30rem]"/>
-
-      <div className="absolute flex flex-col">
+      <Card className="w-11/12 h-3/5 flex flex-col justify-center sm:w-[26rem] sm:h-[30rem]">
 
         <Input type="text" placeholder="nome"/>
         <Input type="email" placeholder="e-mail"/>
@@ -17,7 +15,7 @@ export default function Cadastro() {
 
         <Button width="w-48" bgColor=" bg-mint">CADASTRAR</Button>
 
-      </div>
+      </Card>
 
     </div>  
   );
