@@ -17,7 +17,7 @@ export default function Cadastro() {
           <Input type="password" placeholder="senha"/>
           <Input type="password" placeholder="confirmar senha"/>
 
-          <Button width="w-48" bgColor=" bg-mint">CADASTRAR</Button>
+          <Button className="w-48 bg-mint">CADASTRAR</Button>
 
         </div>
 

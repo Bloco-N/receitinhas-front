@@ -1,15 +1,14 @@
 
 type ButtonProps = {
-  width: string;
-  bgColor: string;
+  className: string;
   children: React.ReactNode;
 };
 
-export default function Button({ children, width, bgColor }: ButtonProps) {
+export default function Button({ className, children }: ButtonProps) {
 
-  const className = "mx-auto mt-10 h-14 rounded-xl border-2 border-coffee text-vanilla text-3xl font-modak font-stroke " + width + bgColor;
+  const style = "mx-auto mt-10 h-14 rounded-xl border-2 border-coffee text-vanilla text-3xl font-modak font-stroke " + className;
 
   return (
-    <button className={className}>{children}</button>
+    <button className={style}>{children}</button>
   )
 }

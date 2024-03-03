@@ -16,7 +16,7 @@ export default function RecuperarSenha() {
 
           <Input type="email" placeholder="e-mail"/>
 
-          <Button width="w-72" bgColor=" bg-mint">REDEFINIR SENHA</Button>
+          <Button className="w-72 bg-mint">REDEFINIR SENHA</Button>
 
         </div>
 
